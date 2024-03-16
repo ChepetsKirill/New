@@ -1,0 +1,106 @@
+        body {
+			background-color: skyblue;
+			font-family: cursive;
+			font-size: 21px;
+			color: white;
+		}
+
+		.heading {
+			background-color: blue;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			text-align: center;
+			z-index: 99;
+		}
+
+		.image-1 {
+			height: 200px;
+			width: 400px;
+			opacity: 0.6;
+			z-index: 0;
+			position: absolute;
+		}
+
+		.image-2 {
+			height: 200px;
+			width: 400px;
+			position: absolute;
+			top: 70px;
+			left: 200px;
+			opacity: 0.6;
+			z-index: 0;
+		}
+
+		.image-3 {
+			height: 200px;
+			width: 400px;
+			position: absolute;
+			top: 140px;
+			left: 400px;
+			opacity: 0.6;
+			z-index: 0;
+		}
+
+		.images {
+			position: absolute;
+			top: 120px;
+		}
+
+		.image-1:hover {
+			height: 300px;
+			width: 600px;
+			opacity: 1;
+			z-index: 1;
+		}
+
+		.image-2:hover {
+			height: 300px;
+			width: 600px;
+			opacity: 1;
+			z-index: 1;
+		}
+
+		.image-3:hover {
+			height: 300px;
+			width: 600px;
+			opacity: 1;
+			z-index: 1;
+		}
+
+		.description {
+			text-align: center;
+			position: fixed;
+			bottom: 10px;
+			left: 41%;
+			z-index: 19;
+			color: orange;
+			border-left: 10px double #04E42B;
+			border-right: 10px double #04E42B;
+			font-size: 21px;
+			padding: 3px;
+		}
+
+		.a {
+			color: red;
+		}
+
+		.a:hover {
+			font-size: 23px;
+		}
+
+		.button {
+			background-color: skyblue;
+			border: 1px solid skyblue;
+			font-family: cursive;
+			font-size: 21px;
+		}
+
+		.number {
+			position: absolute;
+			bottom: 5px;
+			left: 40%;
+			z-index: 20;
+			color: black;
+		}
